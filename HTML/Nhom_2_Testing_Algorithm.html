@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nhom 2</title>
+</head>
+<body>
+<h1> NHÓM 2 </h1>
+<p> yêu cầu người dùng nhập họ tên
+    <br> in ra theo đúng quy định theo mẫu: Nguyen Van An
+</p>
+
+</body>
+<script>
+    //   let myString = "Hello from C0223G1";
+    //   document.write(`${myString.split(" ").length}`)
+    //
+    //   let myString2 = " Hello                 ,    from      C0223G1 "
+    //   let arr = myString2.split(" ");
+    //   console.log(arr)
+    //
+    // let arr2 =  arr.filter(x => x !== "" && x!== ",")
+    //   console.log(arr2)
+    //   document.write(`<br> ${arr2.length}`)
+
+    let name = prompt("Nhập họ tên");
+
+    let arrName = name.split(" ")
+    let nameWord = arrName.filter(x => x !== "")
+    let result = '';
+    for (let nameWordElement of nameWord) {
+        let nameWordElementSplited = nameWordElement.split("")
+        for (let i = 0; i < nameWordElementSplited.length; i++) {
+            if (i === 0) {
+                nameWordElementSplited[i] = nameWordElementSplited[i].toUpperCase()
+            } else {
+                nameWordElementSplited[i] = nameWordElementSplited[i].toLowerCase()
+            }
+        }
+        nameWordElement = nameWordElementSplited.join('');
+        result += ` ${nameWordElement}`
+    }
+    document.write(result);
+    // for (let i= 0; i<nameWord.length;i++){
+    //     for (li j =0; j< nameWord[j].length)
+    // }
+
+</script>
+</html>
