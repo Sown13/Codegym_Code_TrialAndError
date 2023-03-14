@@ -36,4 +36,14 @@ trả lời câu hỏi, tung đồng xu để quyết định thắng thua).
 - Vật cản cũng có thể là buff như trang bị, bùa (+hp, +atk)
 - Khi hai nhân vật gặp nhau, nhân vật có atk cao hơn sẽ được quyền đứng ô đó,
 nhân vật có atk thấp hơn sẽ bị lùi về sau (có thể lùi về số ô = atk cao - atk thấp)
+
+3/ Bàn cờ:
+- Đường tắt, rẽ nhánh...
+III/ Random note:
 - 
+- chọn ngôn ngữ tiếng anh hoặc tiếng việt;
+- Trait nhân vật có thể như: 
+<br>+ thay vì phải đi theo số trên roll, nhân vật có thể đi theo ý thích trong 1 phạm vi nhỏ
+Ví dụ: quay được roll 5 -> nhân vật có thể di chuyển theo ý thích trong khoảng 4-6 ô.
+- Tham khảo di chuyển trong james "game lái xe" phần lập trình hướng đối tượng
+- nhân vật 50x50px, mỗi ô khoảng 60x60px

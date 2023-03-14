@@ -3,8 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        body {
+            background-image: url("../Image/5163.jpg");
+        }
+        table, tr, td {
+            border: 1px solid
+        }
+
+        table {
+            width: 1500px;
+            height: 700px;
+        }
+        .controlBoard{
+            width: 200px;
+            height: 200px;
+        }
+
+        #mainBoard {
+            background-image:url("../Image/background_main_resized_2.png");
+        }
+    </style>
 </head>
 <body>
+<h3 style="text-align: center"> Board game: Escape from Jean </h3>
+<table>
+    <tr>
+        <td class="controlBoard"> Klee</td>
+        <td id="mainBoard" rowspan="3">
+            <img style="position:absolute;left:220px; top:70px;" src="../Image/character_main_jean_resized_removedbg.png" alt="nothing" id="jean">
+            <img style="position:absolute;left:280px; top:70px;" src="../Image/character_main_klee_resized.png" alt="nothing" id="klee">
+        </td>
+    </tr>
+    <tr>
+        <td class="controlBoard"> Jean</td>
+    </tr>
+    <tr>
+        <td></td>
+    </tr>
 
+</table>
 </body>
+<script src="character.js"></script>
 </html>
